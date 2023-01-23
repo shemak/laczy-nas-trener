@@ -37,7 +37,7 @@ if coach_sel:
     st.markdown('<div style="text-align: center;">Trenerem naszych orłów zostaje:</div>', unsafe_allow_html=True)    
     st.markdown(f"<h2 style='text-align: center; color: white;'>{coach}!</h2>", unsafe_allow_html=True)       
     image_base_selected_coach = images_helpers.image_to_base64(coaches.coach_to_image[coach])
-    st.markdown(f'<div style="text-align: center;"> <img src="data:image/jpg;base64,{image_base_selected_coach}" width="480" height="600"> </div>',
+    st.markdown(f'<div style="text-align: center;"> <img src="data:image/jpg;base64,{image_base_selected_coach}" width="350" height="450"> </div>',
                 unsafe_allow_html=True)
 
 st.write('\n')

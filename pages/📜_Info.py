@@ -10,7 +10,7 @@ image_base_paulo = images_helpers.image_to_base64('images/paulo.jpg')
 #            unsafe_allow_html=True)
 st.image('images/paulo.jpg', width=250)
 
-st.markdown('''Strona powstała wyłacznie w celach rozrywkowych, i nie ma na celu urażać innych osób.
+st.markdown('''Strona powstała wyłacznie w celach rozrywkowych, i nie ma na celu urażania uczuć innych osób.
     \nLogo 'Męczy nas piłka' oraz ikony były trenerów to popularne w sieci grafiki pariodujące hasło 'Lączy nas piłka' (autor nieznany?).
     \nObrazek na górze strony pochodzi z serwisu Wykop.pl, z tagu #reprezentacja (autor nieznany?).
     \nGrafiki z wybranymi trenerami są oczywiście fikcyjne, część z nich pochodzi z profilu @PanieKazimierzu na portalu Twitter.com, dla
