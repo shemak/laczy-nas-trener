@@ -21,7 +21,7 @@ st.write('\n')
 
 col1, col2, col3 = st.columns([2,1,2])
 with col1:
-    image_base_jerry = images_helpers.image_to_base64('images/top_coaches/jerry_buzzer.jpg')
+    image_base_jerry = images_helpers.image_to_base64('images/top_coaches/jerzy_brzecz.jpg')
     st.markdown(f'<img src="data:image/jpg;base64,{image_base_jerry}" width="100" height="100" style="float:right">',
                 unsafe_allow_html=True)
 with col2:
